@@ -1,0 +1,134 @@
+[
+  {
+    "id": "1",
+    "image": "https://i.imgur.com/HRa4oKf.png",
+    "category": "Health",
+    "title": "Clean Water for Children",
+    "description": "Ensuring access to clean and safe drinking water for underprivileged children in impoverished communities. Your donation can make a significant impact on their health and well-being.",
+    "donation_amount": 290,
+    "text_color": "#FFFFFF",
+    "card_background_color": "#4CAF50",
+    "category_background_color": "#009688"
+  },
+  {
+    "id": "2",
+    "image": "https://i.imgur.com/NJrtwtr.png",
+    "category": "Education",
+    "title": "Good Education",
+    "description": "Empowering quality education initiatives for children in underserved areas. Help us provide access to educational resources and opportunities for a brighter future.",
+    "donation_amount": 300,
+    "text_color": "#FFFFFF",
+    "card_background_color": "#2196F3",
+    "category_background_color": "#03A9F4"
+  },
+  {
+    "id": "3",
+    "image": "https://i.imgur.com/W3OiJJy.png",
+    "category": "Clothing",
+    "title": "Used Clothing Drive",
+    "description": "Donating gently used clothing to those in need. Your contribution can help keep individuals warm and clothed during challenging times.",
+    "donation_amount": 290,
+    "text_color": "#000000",
+    "card_background_color": "#FFC107",
+    "category_background_color": "#FF9800"
+  },
+  {
+    "id": "4",
+    "image": "https://i.imgur.com/OkQGfwV.png",
+    "category": "Food",
+    "title": "Better Food for Everyone",
+    "description": "Supporting initiatives to provide nutritious food to hungry individuals and families. Your donation can help combat hunger and promote good health.",
+    "donation_amount": 300,
+    "text_color": "#FFFFFF",
+    "card_background_color": "#FF5722",
+    "category_background_color": "#F44336"
+  },
+  {
+    "id": "5",
+    "image": "https://i.imgur.com/HRa4oKf.png",
+    "category": "Health",
+    "title": "Clean Water for Children",
+    "description": "Ensuring access to essential medical care and services for vulnerable populations. Your donation can save lives and improve health outcomes.",
+    "donation_amount": 290,
+    "text_color": "#FFFFFF",
+    "card_background_color": "#4CAF50",
+    "category_background_color": "#009688"
+  },
+  {
+    "id": "6",
+    "image": "https://i.imgur.com/NJrtwtr.png",
+    "category": "Education",
+    "title": "Good Education",
+    "description": "Providing scholarships to bright and deserving students who lack financial resources. Your support can empower the next generation of leaders.",
+    "donation_amount": 300,
+    "text_color": "#FFFFFF",
+    "card_background_color": "#2196F3",
+    "category_background_color": "#03A9F4"
+  },
+  {
+    "id": "7",
+    "image": "https://i.imgur.com/W3OiJJy.png",
+    "category": "Clothing",
+    "title": "Used Clothing Drive",
+    "description": "Collecting warm winter clothing items for individuals facing cold winters without adequate clothing. Your contribution can bring warmth and comfort.",
+    "donation_amount": 290,
+    "text_color": "#000000",
+    "card_background_color": "#FFC107",
+    "category_background_color": "#FF9800"
+  },
+  {
+    "id": " 8",
+    "image": "https://i.imgur.com/OkQGfwV.png",
+    "category": "Food",
+    "title": "Better Food for Everyone",
+    "description": "Supporting local food pantries to ensure food security for those in need. Your donation can help alleviate hunger in your community.",
+    "donation_amount": 300,
+    "text_color": "#FFFFFF",
+    "card_background_color": "#FF5722",
+    "category_background_color": "#F44336"
+  },
+  {
+    "id": "9",
+    "image": "https://i.imgur.com/HRa4oKf.png",
+    "category": "Health",
+    "title": "Clean Water for Children",
+    "description": "Funding vaccination campaigns to protect vulnerable populations from preventable diseases. Your donation can contribute to public health.",
+    "donation_amount": 290,
+    "text_color": "#FFFFFF",
+    "card_background_color": "#4CAF50",
+    "category_background_color": "#009688"
+  },
+  {
+    "id": "10",
+    "image": "https://i.imgur.com/NJrtwtr.png",
+    "category": "Education",
+    "title": "Good Education",
+    "description": "Providing digital learning resources and technology to students in underserved areas. Your support can bridge the digital divide in education.",
+    "donation_amount": 300,
+    "text_color": "#FFFFFF",
+    "card_background_color": "#2196F3",
+    "category_background_color": "#03A9F4"
+  },
+  {
+    "id": "11",
+    "image": "https://i.imgur.com/W3OiJJy.png",
+    "category": "Clothing",
+    "title": "Used Clothing Drive",
+    "description": "Supplying school uniforms and clothing for children returning to school. Your contribution can boost their confidence and success.",
+    "donation_amount": "290",
+    "text_color": "#000000",
+    "card_background_color": "#FFC107",
+    "category_background_color": "#FF9800"
+  },
+  {
+    "id": "12",
+    "image": "https://i.imgur.com/OkQGfwV.png",
+    "category": "Food",
+    "title": "Better Food for Everyone",
+    "description": "Supporting nutrition education programs to empower individuals with knowledge about healthy eating. Your donation can promote well-being.",
+    "donation_amount": 300,
+    "text_color": "#FFFFFF",
+    "card_background_color": "#FF5722",
+    "category_background_color": "#F44336"
+  }
+]
