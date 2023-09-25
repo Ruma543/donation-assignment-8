@@ -13,6 +13,10 @@ const DonationDetailsCard = ({ donation }) => {
     description,
     donation_amount,
   } = donation || {};
+  const btnBgStyle = {
+    backgroundColor: text_color,
+  };
+
   const handleAddDonate = () => {
     const donateItemAdded = [];
     const donateItem = JSON.parse(localStorage.getItem('donation'));
@@ -35,10 +39,16 @@ const DonationDetailsCard = ({ donation }) => {
     <div className="w-4/5 mx-auto my-6 space-y-4">
       <div className="relative">
         <img className="w-full h-[70vh] rounded-lg" src={image} alt="" />
-        <div className="absolute bottom-8 left-8 w-full mx-auto py-6 bg-black opacity-50">
-          <button onClick={handleAddDonate} className="btn btn-primary left-3">
-            Donate $ {donation_amount}
-          </button>
+        <div className="absolute bottom-0 left-0 w-full mx-auto py-6 bg-gray-100    flex">
+          <div>
+            <button
+              onClick={handleAddDonate}
+              className=" flex-start ml-5 py-2 px-3 rounded-lg text-white opacity-100"
+              style={btnBgStyle}
+            >
+              Donate $ {donation_amount}
+            </button>
+          </div>
         </div>
       </div>
       <h2 className="text-3xl font-semibold text-left">{title}</h2>

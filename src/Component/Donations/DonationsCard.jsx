@@ -12,18 +12,36 @@ const DonationsCard = ({ donation }) => {
     card_background_color,
     category_background_color,
   } = donation || {};
+  const cardStyle = {
+    backgroundColor: card_background_color.color,
+  };
+  const CategoryBgStyle = {
+    backgroundColor: category_background_color.color,
+  };
+
+  const titleStyle = {
+    color: text_color,
+  };
   return (
     <div>
       <Link to={`donations/${id}`}>
-        <div className="card  bg-base-100 shadow-xl">
-          <figure>
-            <img src={image} alt="" />
-          </figure>
-          <div className="card-body">
-            <div className="card-actions justify-end">
-              <h3 className="">{category}</h3>
-            </div>
-            <h2 className="card-title">{title}</h2>
+        <div>
+          <div className="">
+            <img className="w-full" src={image} alt="" />
+          </div>
+          <div className="card-body  text-left rounded-b-lg" style={cardStyle}>
+            <h3
+              className="px-3 py-2 text-left w-2/4 rounded-lg text-lg font-semibold "
+              style={{ ...CategoryBgStyle, ...titleStyle }}
+            >
+              {category}
+            </h3>
+            <h2
+              className="card-title  text-xl font-bold h-10 "
+              style={titleStyle}
+            >
+              {title}
+            </h2>
           </div>
         </div>
       </Link>

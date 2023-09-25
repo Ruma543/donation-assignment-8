@@ -22,18 +22,17 @@ const Banner = () => {
     setSearchClicked(true);
   };
   return (
-    <div className="h-[70vh]">
+    <div className="h-[70vh] my-5">
       <div
         className="hero h-full"
         style={{
-          backgroundImage:
-            'url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)',
+          backgroundImage: 'url(https://i.ibb.co/sQYScxG/Rectangle-4281.png)',
         }}
       >
-        <div className="hero-overlay bg-opacity-90"></div>
-        <div className=" text-center text-neutral-content">
+        <div className="hero-overlay bg-white bg-opacity-90"></div>
+        <div className=" text-center w-full text-neutral-content">
           <div className="w-4/5 mx-auto">
-            <h1 className="mb-5 text-3xl font-bold">
+            <h1 className="mb-5 text-3xl font-bold text-black ">
               I Grow By Helping People In Need
             </h1>
             <div className="flex justify-center ">
@@ -42,9 +41,12 @@ const Banner = () => {
                 placeholder="Search "
                 value={searchInput}
                 onChange={handleSearchChange}
-                className="border border-red-300 rounded-lg p-2 w-full"
+                className="shadow-lg  border-2 border-gray-100 rounded-lg p-2 w-full block rounded-r-none"
               />
-              <button onClick={handleSearchClick} className="btn btn-success">
+              <button
+                onClick={handleSearchClick}
+                className="btn btn-error rounded-l-none"
+              >
                 Search
               </button>
             </div>
