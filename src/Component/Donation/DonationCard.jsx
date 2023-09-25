@@ -26,15 +26,15 @@ const DonationCard = ({ donation }) => {
   const bBgStyle = {
     backgroundColor: text_color,
   };
-  // console.log(donation);
+
   return (
     <div className="flex justify-around rounded-lg gap-5" style={cStyle}>
-      <div className="w-2/5">
-        <img src={image} alt="" />
+      <div className="lg:w-2/5 w-1/2">
+        <img className="w-full h-full" src={image} alt="" />
       </div>
-      <div className="w-3/5 flex flex-col px-5 py-5 text-left">
+      <div className="lg:w-3/5 w-1/2 flex flex-col px-5 py-5 text-left">
         <h3
-          className="px-2 py-1 rounded-lg w-2/5  font-bold"
+          className="px-2 py-1 rounded-lg lg:w-2/5 md:w-2/5 w-3/4  font-bold"
           style={{ ...categoryBgStyle, ...tStyle }}
         >
           {category}

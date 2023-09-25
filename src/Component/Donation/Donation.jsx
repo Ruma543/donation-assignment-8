@@ -12,7 +12,7 @@ const Donation = () => {
     if (donateItem) {
       setAllDonation(donateItem);
     } else {
-      setNoFound('no data');
+      setNoFound('No Data is Available');
     }
   }, []);
   const handleViewDetails = donation => {
@@ -21,10 +21,10 @@ const Donation = () => {
   return (
     <div className="my-7">
       {noFound ? (
-        <p>{noFound}</p>
+        <p className="text-xl font-semibold text-center ">{noFound}</p>
       ) : (
         <div>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 gap-4">
             {isShowAll
               ? allDonation.map(donation => (
                   <DonationCard

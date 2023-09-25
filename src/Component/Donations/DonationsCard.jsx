@@ -31,7 +31,7 @@ const DonationsCard = ({ donation }) => {
           </div>
           <div className="card-body  text-left rounded-b-lg" style={cardStyle}>
             <h3
-              className="px-3 py-2 text-left w-2/4 rounded-lg text-lg font-semibold "
+              className="px-3 py-1 text-left w-2/4 rounded-lg text-lg font-semibold "
               style={{ ...CategoryBgStyle, ...titleStyle }}
             >
               {category}
