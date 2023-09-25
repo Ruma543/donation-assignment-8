@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const Navber = () => {
-  const logo = 'https://i.imgur.com/2JRrdKy.png';
+  const logo = 'https://i.ibb.co/1JHSFtG/Logo.png';
   return (
     <div className="flex flex-col lg:flex-row lg:justify-between md:flex-row md:justify-between items-center px-6 space-y-4">
       <div>
