@@ -1,4 +1,5 @@
 import React from 'react';
+import swal from 'sweetalert';
 
 const DonationDetailsCard = ({ donation }) => {
   console.log(donation);
@@ -23,15 +24,15 @@ const DonationDetailsCard = ({ donation }) => {
     if (!donateItem) {
       donateItemAdded.push(donation);
       localStorage.setItem('donation', JSON.stringify(donateItemAdded));
-      return alert('added');
+      swal('Good job!', 'Donation Added!', 'success');
     } else {
       const isExist = donateItem.find(item => item.id === id);
       if (!isExist) {
         donateItemAdded.push(...donateItem, donation);
         localStorage.setItem('donation', JSON.stringify(donateItemAdded));
-        return alert('added');
+        swal('Good job!', 'Donation Added!', 'success');
       } else {
-        return alert('already exist');
+        swal('Oh no!', 'You Already Donate this Category !', 'error');
       }
     }
   };
@@ -39,11 +40,11 @@ const DonationDetailsCard = ({ donation }) => {
     <div className="w-4/5 mx-auto my-6 space-y-4">
       <div className="relative">
         <img className="w-full h-[70vh] rounded-lg" src={image} alt="" />
-        <div className="absolute bottom-0 left-0 w-full mx-auto py-6 bg-gray-100    flex">
+        <div className="absolute bottom-0 left-0 w-full mx-auto py-6 bg-black opacity-50  flex">
           <div>
             <button
               onClick={handleAddDonate}
-              className=" flex-start ml-5 py-2 px-3 rounded-lg text-white opacity-100"
+              className=" flex-start ml-5 py-2 px-3 rounded-lg text-white "
               style={btnBgStyle}
             >
               Donate $ {donation_amount}

@@ -19,8 +19,7 @@ const Donation = () => {
     setSelectedDonation(donation);
   };
   return (
-    <div>
-      <h3> all donation: {allDonation.length}</h3>
+    <div className="my-7">
       {noFound ? (
         <p>{noFound}</p>
       ) : (
@@ -44,12 +43,12 @@ const Donation = () => {
                     ></DonationCard>
                   ))}
           </div>
-          {allDonation.length > 2 && (
+          {allDonation.length > 4 && (
             <button
               className="px-3 py-2 rounded-lg text-white bg-green-600 my-5"
               onClick={() => setIsShowAll(!isShowAll)}
             >
-              {isShowAll ? 'see Less' : 'see more'}
+              {isShowAll ? 'Show Less' : 'Show More'}
             </button>
           )}
         </div>
