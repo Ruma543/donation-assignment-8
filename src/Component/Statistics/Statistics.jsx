@@ -8,7 +8,7 @@ const data = [
   { name: 'Donation Collect', value: donationCount },
   { name: 'All Donation Sector', value: 12 },
 ];
-const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042'];
+const COLORS = ['#0088FE', '#00C49F'];
 
 const RADIAN = Math.PI / 180;
 const renderCustomizedLabel = ({
@@ -40,7 +40,7 @@ export default function Statistics() {
           cy={200}
           labelLine={false}
           label={renderCustomizedLabel}
-          outerRadius={80}
+          outerRadius={150}
           fill="#8884d8"
           dataKey="value"
         >
