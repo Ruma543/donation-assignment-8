@@ -33,7 +33,7 @@ const Legend = () => {
         ></span>
       </div>
       <div className="flex items-center gap-4">
-        <span className="">All Donation Sector</span>
+        <span className="">Remaining Donation Sector</span>
         <span
           className="h-2 w-10 rounded-lg"
           style={{ backgroundColor: COLORS[1] }}
@@ -52,15 +52,18 @@ export default function Statistics() {
 
     if (donationCount) {
       const newData = [
-        { name: 'Donation Collect', value: donationCount },
-        { name: 'All Donation Sector', value: 12 },
+        { name: 'Donation Collect', value: (donationCount * 100) / 12 },
+        {
+          name: 'Remaining Donation Sector',
+          value: 100 - (donationCount * 100) / 12,
+        },
       ];
       setData(newData);
       setDonationCount(donationCount);
     }
   }, []);
   return (
-    <div className="flex justify-center items-center w-3/5 mx-auto flex-col h-[70vh]">
+    <div className="flex justify-center items-center w-3/5 mx-auto my-6 flex-col h-[80vh]">
       {donationCount ? (
         <PieChart width={400} height={400}>
           <Pie

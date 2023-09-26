@@ -4,11 +4,11 @@ import { NavLink } from 'react-router-dom';
 const Navber = () => {
   const logo = 'https://i.ibb.co/1JHSFtG/Logo.png';
   return (
-    <div className="flex flex-col lg:flex-row lg:justify-between md:flex-row md:justify-between items-center px-6 space-y-4">
+    <div className="flex flex-col lg:flex-row lg:justify-between md:flex-row md:justify-between items-center px-6 space-y-4 mb-4">
       <div>
         <img src={logo} alt="" />
       </div>
-      <nav className="flex justify-around gap-4">
+      <nav className="flex justify-around gap-4 ">
         <NavLink
           to="/"
           className={({ isActive, isPending }) =>
