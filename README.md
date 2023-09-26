@@ -1,13 +1,13 @@
 # 3 Project features:
 
-1. In this Project users can select donation category from the available
-   Donation menu.Users can choose their selected donation category where have
-   their interest.
+1.In this Project users can select the donation category from the available
+donation menu.Users can choose their donation category according to their
+interest.
 
-2. User can view their selected category details. In addition to this the
-   details page they can Donate the amount and if donate then show a sweet alert
-   notifications and if select one category second time then show another sweet
-   alert notifications.
+2.Users can view their selected donation category details. In addition to this,
+they receive a sweet alert when they donate and receive another sweet alert when
+they select the same category for the second time.
 
-3. User can show the all category which they donate the amount.And finally show
-   a pie-chart to show the percentage of their donation.
+3.Users can see all categories in which they donate and finally they can
+visualize a pie-chart where their donation percentage in different categories
+are summarized.
