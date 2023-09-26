@@ -41,7 +41,7 @@ const Banner = () => {
                 placeholder="Search "
                 value={searchInput}
                 onChange={handleSearchChange}
-                className="shadow-lg  border-2 border-gray-100 rounded-lg p-2 w-full block rounded-r-none"
+                className="shadow-lg  border-2 outline-none rounded-lg p-2 w-full block rounded-r-none"
               />
               <button
                 onClick={handleSearchClick}

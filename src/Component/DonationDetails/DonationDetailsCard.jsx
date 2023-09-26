@@ -40,7 +40,7 @@ const DonationDetailsCard = ({ donation }) => {
     <div className="lg:w-4/5 w-full mx-auto my-6 space-y-4">
       <div className="relative">
         <img className="w-full h-[70vh] rounded-lg" src={image} alt="" />
-        <div className="absolute bottom-0 left-0 w-full mx-auto py-6 bg-black opacity-50  flex">
+        <div className="absolute bottom-0 left-0 w-full mx-auto py-6 bg-black/20   flex">
           <div>
             <button
               onClick={handleAddDonate}
